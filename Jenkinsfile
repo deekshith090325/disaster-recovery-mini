@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Repository') {
             steps {
-                git 'https://github.com/deekshith090325/disaster-recovery-mini.git'
+                git branch: 'main', url: https://github.com/deekshith090325/disaster-recovery-mini.git'
             }
         }
 
